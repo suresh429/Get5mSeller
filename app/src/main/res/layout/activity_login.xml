@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pivotalsoft.get5mseller.LoginActivity"
+    android:background="@drawable/layerbackground"
+    android:gravity="center"
+    android:padding="25dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/get5m" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rouncorner_edittext"
+            android:hint="E-mail address"
+            android:drawableLeft="@drawable/ic_mail_black_24dp"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:drawablePadding="10dp"
+            android:textColor="@color/whiteColor"
+            android:textColorHint="@color/whiteColor"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText6"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rouncorner_edittext"
+            android:hint="Password"
+            android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/whiteColor"
+            android:textColor="@color/whiteColor"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:id="@+id/button_login"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rouncorner_button"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/whiteColor"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Forgot Password ?"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/whiteColor"
+            android:textSize="16sp"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="New here? Sign up"
+        android:id="@+id/signup_Link"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@color/whiteColor"
+        android:textSize="18sp"
+        android:layout_marginBottom="30dp"
+        android:padding="5dp"/>
+</RelativeLayout>
+
