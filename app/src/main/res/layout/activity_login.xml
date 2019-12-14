@@ -19,10 +19,11 @@
         android:gravity="center">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:id="@+id/imageView3"
-            android:src="@drawable/get5m" />
+            android:src="@drawable/logo"
+            android:background="@drawable/circler_logo"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -97,6 +98,7 @@
         android:textColor="@color/whiteColor"
         android:textSize="18sp"
         android:layout_marginBottom="30dp"
-        android:padding="5dp"/>
+        android:padding="5dp"
+        android:visibility="gone"/>
 </RelativeLayout>
 

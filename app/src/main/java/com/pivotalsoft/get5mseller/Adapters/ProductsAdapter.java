@@ -11,6 +11,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.pivotalsoft.get5mseller.ModelItems.ProductsItem;
+import com.pivotalsoft.get5mseller.ProductsActivities.ProductsActivity;
+import com.pivotalsoft.get5mseller.ProductsActivities.ProductsListActivity;
 import com.pivotalsoft.get5mseller.ProductsActivities.ProductsSubCategoryActivity;
 import com.pivotalsoft.get5mseller.R;
 
@@ -60,7 +62,8 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
         holder.productsLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 =new Intent(mContext,ProductsSubCategoryActivity.class);
+               // Intent intent4 =new Intent(mContext,ProductsSubCategoryActivity.class);
+                Intent intent4 =new Intent(mContext, ProductsListActivity.class);
                 intent4.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 mContext.startActivity(intent4);
             }

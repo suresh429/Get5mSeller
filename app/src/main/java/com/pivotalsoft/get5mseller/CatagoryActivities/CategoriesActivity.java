@@ -48,19 +48,17 @@ public class CategoriesActivity extends AppCompatActivity implements View.OnClic
 
 
 
-
-
         prepareCategoryData();
     }
 
     private void prepareCategoryData() {
-        CategoryItem reviewsItem = new CategoryItem(R.drawable.ic_mail_black_24dp,"Clothing");
+        CategoryItem reviewsItem = new CategoryItem(R.drawable.ic_mail_black_24dp,"Organic Lamps");
         categoryItemArrayList.add(reviewsItem);
 
-        reviewsItem = new CategoryItem(R.drawable.ic_mail_black_24dp,"Accessories");
+        reviewsItem = new CategoryItem(R.drawable.ic_mail_black_24dp,"Organic Products");
         categoryItemArrayList.add(reviewsItem);
 
-        reviewsItem = new CategoryItem(R.drawable.ic_mail_black_24dp,"Footwear");
+       /* reviewsItem = new CategoryItem(R.drawable.ic_mail_black_24dp,"Footwear");
         categoryItemArrayList.add(reviewsItem);
 
         reviewsItem = new CategoryItem(R.drawable.ic_mail_black_24dp,"Bags");
@@ -73,7 +71,7 @@ public class CategoriesActivity extends AppCompatActivity implements View.OnClic
         categoryItemArrayList.add(reviewsItem);
 
         reviewsItem = new CategoryItem(R.drawable.ic_mail_black_24dp,"Men Bags");
-        categoryItemArrayList.add(reviewsItem);
+        categoryItemArrayList.add(reviewsItem);*/
 
 
         mAdapter.notifyDataSetChanged();

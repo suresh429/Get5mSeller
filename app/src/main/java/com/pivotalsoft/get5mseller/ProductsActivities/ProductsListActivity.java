@@ -59,19 +59,19 @@ public class ProductsListActivity extends AppCompatActivity implements View.OnCl
     }
 
     private void prepareProductsData() {
-        ProductsListItem reviewsItem = new ProductsListItem(R.drawable.ic_vector_products,"Lee","150 Rs","20 Rs","Avalible");
+        ProductsListItem reviewsItem = new ProductsListItem(R.drawable.ghee_gober_diya,"Ghee Gober Lamp","150 Rs","20 Rs","Avalible");
         productsItemArrayList.add(reviewsItem);
 
-        reviewsItem =  new ProductsListItem(R.drawable.ic_vector_products,"Reebok","350 Rs","20 Rs","Avalible");
+        reviewsItem =  new ProductsListItem(R.drawable.gober_diya,"Gober Lamp","350 Rs","20 Rs","Avalible");
         productsItemArrayList.add(reviewsItem);
 
-        reviewsItem =  new ProductsListItem(R.drawable.layerbackground,"Spark","450 Rs","20 Rs","Sold Out");
+        reviewsItem =  new ProductsListItem(R.drawable.gober_cake,"Gober Cake","450 Rs","20 Rs","Sold Out");
         productsItemArrayList.add(reviewsItem);
 
-        reviewsItem =  new ProductsListItem(R.drawable.ic_vector_products,"Jaken Jones","150 Rs","20 Rs","Avalible");
+        reviewsItem =  new ProductsListItem(R.drawable.cow_ghee,"Cow Ghee","150 Rs","20 Rs","Avalible");
         productsItemArrayList.add(reviewsItem);
 
-        reviewsItem =  new ProductsListItem(R.drawable.layerbackground,"Buffelleo","850 Rs","20 Rs","Sold Out");
+      /*  reviewsItem =  new ProductsListItem(R.drawable.layerbackground,"Buffelleo","850 Rs","20 Rs","Sold Out");
         productsItemArrayList.add(reviewsItem);
 
 
@@ -79,7 +79,7 @@ public class ProductsListActivity extends AppCompatActivity implements View.OnCl
         productsItemArrayList.add(reviewsItem);
 
         reviewsItem =  new ProductsListItem(R.drawable.layerbackground,"Spark","1500 Rs","20 Rs","Avalible");
-        productsItemArrayList.add(reviewsItem);
+        productsItemArrayList.add(reviewsItem);*/
 
 
 

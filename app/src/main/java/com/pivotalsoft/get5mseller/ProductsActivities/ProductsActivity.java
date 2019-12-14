@@ -50,13 +50,13 @@ public class ProductsActivity extends AppCompatActivity  {
     }
 
     private void prepareProductsData() {
-        ProductsItem reviewsItem = new ProductsItem("Clothing");
+        ProductsItem reviewsItem = new ProductsItem("Organic Lamps");
         productsItemArrayList.add(reviewsItem);
 
-        reviewsItem = new ProductsItem("Footwear");
+        reviewsItem = new ProductsItem("Organic Products");
         productsItemArrayList.add(reviewsItem);
 
-        reviewsItem = new ProductsItem("Sarees");
+       /* reviewsItem = new ProductsItem("Sarees");
         productsItemArrayList.add(reviewsItem);
 
         reviewsItem = new ProductsItem("Computers");
@@ -72,7 +72,7 @@ public class ProductsActivity extends AppCompatActivity  {
         reviewsItem = new ProductsItem("Headphone");
         productsItemArrayList.add(reviewsItem);
 
-
+*/
 
 
 
