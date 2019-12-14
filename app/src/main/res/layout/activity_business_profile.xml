@@ -100,7 +100,7 @@
                         android:layout_marginRight="30dp"
                         android:layout_toEndOf="@+id/imageView6212"
                         android:layout_toRightOf="@+id/imageView6212"
-                        android:text="pivotalsoft"
+                        android:text="Sri Divya Jyothi Enterprises"
                         android:textSize="16sp" />
 
                     <!--  <ImageView
@@ -176,7 +176,7 @@
                         android:layout_toEndOf="@+id/imageView33622"
                         android:layout_toLeftOf="@+id/imageView33733"
                         android:layout_toRightOf="@+id/imageView33622"
-                        android:text="suresh@gmail.com"
+                        android:text="sridivyajyothienterprises@gmail.com"
                         android:textSize="16sp" />
 
                     <ImageView
@@ -265,7 +265,7 @@
                         android:layout_toEndOf="@+id/imageView622"
                         android:layout_toLeftOf="@+id/imageView733"
                         android:layout_toRightOf="@+id/imageView622"
-                        android:text="suresh"
+                        android:text="Sri Divya Jyothi"
                         android:textSize="16sp" />
 
                     <ImageView
@@ -421,7 +421,7 @@
                         android:layout_toEndOf="@+id/imageView6"
                         android:layout_toLeftOf="@+id/imageView7"
                         android:layout_toRightOf="@+id/imageView6"
-                        android:text="suresh@gmail.com"
+                        android:text="sridivyajyothienterprises@gmail.com"
                         android:textSize="16sp" />
 
                     <ImageView

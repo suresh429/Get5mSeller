@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sri divya Jyothi</string>
+    <string name="app_name">Sri Divya Jyothi</string>
     <string name="title_activity_home">HomeActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -9,7 +9,7 @@
     <string name="welcome_pivotalsoft">Welcome Sri Divya Jyothi Enterprises !</string>
     <string name="_3_0">4.8</string>
     <string name="_12354_reviews">(14 Reviews)</string>
-    <string name="pivotalsoft_seller_gmail_com">sridivyaJyothienterprises@gmail.com</string>
+    <string name="pivotalsoft_seller_gmail_com">sridivyajyothienterprises@gmail.com</string>
     <string name="your_ratings">Your Ratings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
